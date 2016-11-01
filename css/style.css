@@ -34,11 +34,18 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'myriad';
+    src: url('../fonts/8143.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 #big {font-size : 4.2vw} /*40pt*/
 #header1{ font-size : 2.1vw; font-family:'BerkshireSwash-Regular'} /*40pt*/
-#txt1{ font-size : 1.1vw} /*25pt*/
+#txt1{ font-size : 1vw} /*25pt*/
 #txt2{ font-size : 0.95vw} /*16pt*/
-#txt2{ font-size : 1.15vw} /*26pt*/
+#txt3{ font-size : 1.15vw} /*26pt*/
+#txt4{ font-size : 0.98vw} /*18pt*/
 /*#menu1 {} background:black;
 #menu1  ul { list-style:none; text-align:left; }
 #menu1  ul li {  text-transform:uppercase;   }
