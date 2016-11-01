@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Bellico';
+    src: url('../fonts/Bellico.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BerkshireSwash-Regular';
+    src: url('../fonts/BerkshireSwash-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lora';
+    src: url('../fonts/Lora.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lora-bold';
+    src: url('../fonts/Lora-bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lora-italic';
+    src: url('../fonts/Lora-italic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+#big {font-size : 4.2vw} /*40pt*/
+#header1{ font-size : 2.1vw; font-family:'BerkshireSwash-Regular'} /*40pt*/
+#txt1{ font-size : 1.1vw} /*25pt*/
+#txt2{ font-size : 0.95vw} /*16pt*/
+/*#menu1 {} background:black;
+#menu1  ul { list-style:none; text-align:left; }
+#menu1  ul li {  text-transform:uppercase;   }
+#menu1  ul li a {  text-decoration:none; color:#a8756f; font-family:Montserrat-Regular; font-size:1.1vw}
+#menu1  ul li a:hover { text-decoration:underline; } 
+#menu1  { text-align:center; text-transform:uppercase;  text-decoration:none; color:#a8756f; font-family:Montserrat-Regular; font-size:1vw; }
+#menu1  a:hover { text-decoration:underline; }*/
+
+
+#menu1 { } /*background:black;*/
+#menu1  ul { list-style:none; }
+#menu1  ul li {  float: left; margin-left:5%; text-transform:uppercase; display:inline;   }
+#menu1  ul li a {  text-decoration:none; color:#a8756f; font-family:Montserrat-Regular; font-size:1.1vw}
+#menu1  ul li a:hover { text-decoration:underline; } 
+
+
+
+div.radius {
+  border-radius: 30px;
+  width:100%;
+  height:auto;
+  padding:10%;
+  text-align:center;
+  vertical-align: middle;
+  font-family:Montserrat-Regular; 
+  font-size:1.1vw;
+  color: white;
+  background:#ec495e;
+}
+
+
+}

@@ -1,0 +1,138 @@
+style = "background-image: url(back1.png); position: absolute; width:100%; margin-left:-1.2%; background-repeat:no-repeat " >
+
+<div class="col-1-12">1</div>
+	<div class="col-1-12">2</div>
+	<div class="col-1-12">3</div>
+	<div class="col-1-12">4</div>
+	<div class="col-1-12">5</div>
+	<div class="col-1-12">6</div>
+	<div class="col-1-12">7</div>
+	<div class="col-1-12">8</div>
+	<div class="col-1-12">9</div>
+	<div class="col-1-12">10</div>
+	<div class="col-1-12">11</div>
+	<div class="col-1-12">12</div>
+		------------------------------------------------------------------------------------
+<img src = "back1.png" width = "100%" height ="auto">
+</img>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+ <body>
+
+</img>
+	<div class="grid" >
+		<div class="col-3-12" style = "line-height:20%; " >
+			<div style=" display: inline-block; ">
+		    	<p align = "right "> 
+					<font face="Bellico" style = "font-size : 29pt" color = "a8756f" >Maria`s</font> 
+				</p>
+			
+				<p > 
+				<font face="BerkshireSwash-Regular" style = "font-size : 51pt" color = "a73d4a">Bakeru</font> 
+				</p>
+			</div>
+		</div>
+		<div class="col-6-12"   id ="menu1">
+			<ul>
+				<li><a href = "#">About</a></li>
+				<li><a href = "#">Services</a></li>
+				<li><a href = "#">Cases</a></li>
+				<li><a href = "#">News</a></li>
+				<li><a href = "#">Contact us</a></li>
+			</ul>
+		</div>
+		<div class="col-3-12" style = "line-height:20%" >
+			<div class = "radius" style = "align:right; text-align:center">
+			call2action
+			</div>
+		</div>
+ 	</div>
+ </body>
+</html>
+	------------------------------------------------------------------------------------
+	@font-face {
+    font-family: 'Bellico';
+    src: url('Bellico.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BerkshireSwash-Regular';
+    src: url('BerkshireSwash-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('Montserrat-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class*='col-'] {
+
+float: left;
+ padding-left:40px;
+ margin-left:-40px;
+ height:100%;
+ -webkit-box-sizing: border-box	;
+ -moz-box-sizing: border-box	;
+ box-sizing: border-box	;
+   
+}
+
+#menu1 { } /*background:black;*/
+#menu1  ul { list-style:none; text-align:center; }
+#menu1  ul li {  float: left; width:20%; text-transform:uppercase; display:inline;   }
+#menu1  ul li a {  text-decoration:none; color:#a8756f; font-family:Montserrat-Regular; font-size:1.1vw}
+#menu1  ul li a:hover { text-decoration:underline; } 
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+.grid{
+	
+	 margin-left:5%;
+	 margin-right:5%;
+	 margin-top:10%;	 
+	 min-width:1000px;
+	 height:2000px;
+}
+div.radius {
+  border-radius: 20px;
+  width:67%;
+  height:60px;
+  text-align:center;
+ vertical-align: middle;
+  font-family:Montserrat-Regular; 
+  font-size:1.1vw;
+  color: white;
+  background:#ec495e;
+}
+.col-3-12 {
+	
+  width: 25%;
+
+}
+.col-6-12 {
+	
+  width: 50%;
+
+}
+
+.col-1-12 {
+  width: 8.33%;
+
+}
+
+[class*='col-']:first-of-type {
+   padding-left:40px;
+   padding-right:40px;
+}
