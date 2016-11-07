@@ -40,12 +40,45 @@
     font-weight: normal;
     font-style: normal;
 }
+.p1{
+	padding-top:5%;
+	padding-bottom:5%;
+}
+.pcarr1{
+	margin-top:6%;
+}
+.pcarr{
+	margin-top:4%;
+}
 #big {font-size : 4.2vw} /*40pt*/
 #header1{ font-size : 2.1vw; font-family:'BerkshireSwash-Regular'} /*40pt*/
-#txt1{ font-size : 1vw} /*25pt*/
-#txt2{ font-size : 0.95vw} /*16pt*/
-#txt3{ font-size : 1.15vw} /*26pt*/
-#txt4{ font-size : 0.98vw} /*18pt*/
+#txt1{ font-size : 2vw} /*25pt*/
+#txt2{ font-size : 1.95vw} /*16pt*/
+#txt3{ font-size : 2.3vw} /*26pt*/
+#txt4{ font-size : 1.98vw} /*18pt*/	
+@media (min-width:1300px){
+#big {font-size : 57pt} /*40pt*/
+#header1{ font-size :18pt; font-family:'BerkshireSwash-Regular'} /*40pt*/
+#big1{ font-size :35pt; font-family:'BerkshireSwash-Regular'} /*50pt*/
+#txt30{ font-size : 28pt; font-family:'BerkshireSwash-Regular'} /*30pt*/
+#txt1{ font-size : 17pt} /*25pt*/
+#txt3{ font-size : 18pt} /*26pt*/
+#txt2{ font-size : 11pt} /*16pt*/
+#txt4{ font-size : 14pt} /*18pt*/	
+#txt14{ font-size : 10pt} /*14pt*/	
+}
+@media (min-width:1900px){
+#big {font-size : 80pt} /*40pt*/
+#big1{ font-size :50pt; font-family:'BerkshireSwash-Regular'} /*50pt*/
+#header1{ font-size :40pt; font-family:'BerkshireSwash-Regular'} /*40pt*/
+#txt30{ font-size : 30pt; font-family:'BerkshireSwash-Regular'} /*30pt*/
+#txt1{ font-size : 25pt} /*25pt*/
+#txt2{ font-size : 16pt} /*16pt*/
+#txt3{ font-size : 26pt} /*26pt*/
+#txt4{ font-size : 18pt} /*18pt*/	
+#txt14{ font-size : 14pt} /*14pt*/	
+}
+
 /*#menu1 {} background:black;
 #menu1  ul { list-style:none; text-align:left; }
 #menu1  ul li {  text-transform:uppercase;   }
@@ -65,7 +98,6 @@
 
 div.radius {
   border-radius: 30px;
-  width:100%;
   height:auto;
   padding:3%;
   text-align:center;
