@@ -40,11 +40,51 @@
     font-weight: normal;
     font-style: normal;
 }
-#menu1 { } /*background:black;*/
-#menu1  ul { list-style:none; }
-#menu1  ul li {  float: left; margin-left:5%; text-transform:uppercase; display:inline;   }
-#menu1  ul li a { font-family:'Montserrat-Regular';color : #a8756f; }
-#menu1  ul li a:hover { text-decoration:underline; } 
+.menu1 { } /*background:black;*/
+.menu1  ul { list-style:none; }
+.menu1  ul li {  float: left; margin-left:5%; text-transform:uppercase; display:inline;   }
+.menu1  ul li a { font-family:'Montserrat-Regular';color : #a8756f; }
+.menu1  ul li a:hover { text-decoration:underline; } 
+
+.c1{
+	background-image:url(../images/back1.png) ;
+	background-size :100% auto;
+	background-repeat: no-repeat;  
+	min-width:960px; 
+	width : 100% ;
+	height:66vw ; 
+	margin : 0px; 
+	padding:5%
+}
+.c2{
+	background-image:url(../images/back2.png) ;
+	background-size :100% auto;
+	background-repeat: no-repeat;  
+	min-width:960px; 
+	width : 100% ;
+	height:21vw ; 
+	margin : 0px; 
+	padding:5%
+}
+.menuM{
+margin:0 20% 0 20%;
+  width:60%;
+}
+.menuM2{
+margin:0 25% 0 25%;
+  width:50%;
+}
+.social{
+ display: block;
+  margin: 0 auto 0 auto;
+ text-align: center;
+
+}
+.social i{
+
+	color:#bc8e8a;
+	margin-left:10px
+}
 
 .p1{
 	padding-top:5%;
@@ -101,7 +141,11 @@ h5 {
 	color : #613c41; 	
 	text-align:center	;
 }
-
+h6 {
+	font-family:'BerkshireSwash-Regular';	
+	color : #613c41; 	
+	text-align:center	;
+}
 .BigNum{
 	font-family:'BerkshireSwash-Regular';	
 	color : #ec495e; 	
@@ -109,7 +153,13 @@ h5 {
 	line-height:85%;	
 	margin-top:auto;
 }
-
+.BigNum2{
+	font-family:'BerkshireSwash-Regular';	
+	color : #ec495e; 	
+	text-align:center	;	
+	line-height:85%;	
+	margin-top:auto;
+}
 .aps{
 	font-family:'BerkshireSwash-Regular';	
 	color : #a8756f; 	
@@ -141,11 +191,19 @@ h5 {
 	font-family:'Lora';	
 	color : #a8756f; 	
 }
-
+.txt6 {
+	font-family:'Lora';	
+	color : #a8756f; 	
+}
+.txt7 {
+	font-family:'Lora';	
+	color : #613c41; 	
+}
 .txt61 {
 	font-family:'Lora';	
 	color : #616161; 	
 }
+
 
 .it1{
 	font-family:'Lora-italic';	
@@ -158,30 +216,73 @@ h5 {
 .cntr{
 	text-align:center;
 }
+.myr{
+	font-family:'myriad';	
+	color : #ec495e; 	
+}
+.contact{
+	font-family:'Montserrat-Regular';	
+	color : #ec495e; 	
+	text-align:center;	
+}
 
-
-
+h1{font-size : 35pt}
+h2{font-size : 20pt}
+h3{ font-size : 12.5pt} /*25pt*/
+h4{font-size : 9pt}
+h5{font-size : 12pt}
+h6{font-size : 15pt}
+.menu1  ul li a {font-size : 7pt} /*элементы меню*/	
+.logo1 {font-size : 14pt}
+.logo2 {font-size : 25pt}
+.btn1  {font-size : 7pt}
+.BigNum{font-size : 54pt}
+.BigNum2{font-size : 25pt}
+.txt1 {font-size : 12.5pt}
+.txt2 {font-size : 8pt}
+.txt3 {font-size : 9pt}
+.txt4 {font-size : 13pt}
+.txt5 {font-size : 8pt}
+.txt6 {font-size : 9pt}
+.txt7 {font-size : 9pt}
+.txt61 {font-size : 8pt}
+.aps{font-size : 39pt}
+.it1{font-size : 10pt}
+.it2{font-size : 8pt}
+.cap1{font-size : 14pt}
+.myr{font-size : 12pt}
+.contact{font-size : 7pt}
+div.radius {font-size : 7pt}
+div.radius2 {font-size : 7pt}
 @media (min-width:1300px){
 h1{font-size : 49pt}	
 h2{font-size : 28pt}
 h3{font-size : 17pt}
 h4{font-size : 14pt}
 h5{font-size : 17pt}
+h6{font-size : 20pt}
 .menu1  ul li a {font-size : 10pt} /*элементы меню*/	
 .btn1  {font-size : 10pt}
+.contact{font-size : 10pt}
+div.radius {font-size : 10pt}
+div.radius2 {font-size : 10pt}
 .logo1 {font-size : 20pt}
 .logo2 {font-size : 36pt}
-.BigNum{font-size : 76pt}	
+.BigNum{font-size : 76pt}
+.BigNum2{font-size : 35pt}	
 .txt1 {font-size : 17pt}
 .txt2 {font-size : 11pt}
 .txt3 {font-size : 12pt}
 .txt4 {font-size : 18pt}
 .txt5 {font-size : 11pt}
+.txt6 {font-size : 12pt}
+.txt7 {font-size : 12pt}
 .txt61 {font-size : 11pt}
 .aps{font-size : 55pt}
 .it1{font-size : 14pt}
 .it2{font-size : 11pt}
 .cap1{font-size : 19pt}
+.myr{font-size : 17pt}
 }
 @media (min-width:1900px){
 h1{font-size : 70pt}
@@ -189,21 +290,29 @@ h2{font-size : 40pt}
 h3{ font-size : 25pt} /*25pt*/
 h4{font-size : 18pt}
 h5{font-size : 24pt}
+h6{font-size : 30pt}
 .menu1  ul li a {font-size : 13.81pt} /*элементы меню*/	
 .logo1 {font-size : 29pt}
 .logo2 {font-size : 51pt}
 .btn1  {font-size : 13.81pt}
 .BigNum{font-size : 108pt}
+.BigNum2{font-size : 50pt}
 .txt1 {font-size : 25pt}
 .txt2 {font-size : 16pt}
 .txt3 {font-size : 18pt}
 .txt4 {font-size : 26pt}
 .txt5 {font-size : 16pt}
+.txt6 {font-size : 18pt}
+.txt7 {font-size : 18pt}
 .txt61 {font-size : 16pt}
 .aps{font-size : 79pt}
 .it1{font-size : 20pt}
 .it2{font-size : 16pt}
 .cap1{font-size : 28pt}
+.myr{font-size : 24pt}
+.contact{font-size : 13.81pt}
+div.radius {font-size : 13.81pt}
+div.radius2 {font-size : 13.81pt}
 }
 
 /*#menu1 {} background:black;
@@ -215,16 +324,43 @@ h5{font-size : 24pt}
 #menu1  a:hover { text-decoration:underline; }*/
 
 div.radius {
-  border-radius: 30px;
-  height:auto;
-  padding:3%;
+	display: inline-block;
+  border-radius:  50px;
+  height:100%;
+  padding:10%;
   text-align:center;
   vertical-align: middle;
   font-family:Montserrat-Regular; 
-  font-size:1.1vw;
+
   color: white;
   background:#ec495e;
 }
-
-
+div.radius2 {
+ display: block;
+  margin: 0 auto 0 auto;
+ text-align: center;
+  width:60%;
+  border-radius: 50px;
+  height:auto;
+  padding:5%;
+  text-align:center;
+  vertical-align: middle;
+  font-family:Montserrat-Regular; 
+  color: white;
+  background:#ec495e;
+}
+div.radius3 {
+ display: block;
+  margin: 0 auto 0 auto;
+  border-radius: 0 0 50px 50px;
+  text-align: center;
+  width:60%;
+  height:auto;
+  padding:5%;
+  text-align:center;
+  vertical-align: middle;
+  font-family:Montserrat-Regular; 
+  color: white;
+  background:#95c126;
+}
 }
