@@ -40,6 +40,12 @@
     font-weight: normal;
     font-style: normal;
 }
+#menu1 { } /*background:black;*/
+#menu1  ul { list-style:none; }
+#menu1  ul li {  float: left; margin-left:5%; text-transform:uppercase; display:inline;   }
+#menu1  ul li a { font-family:'Montserrat-Regular';color : #a8756f; }
+#menu1  ul li a:hover { text-decoration:underline; } 
+
 .p1{
 	padding-top:5%;
 	padding-bottom:5%;
@@ -50,33 +56,154 @@
 .pcarr{
 	margin-top:4%;
 }
-#big {font-size : 4.2vw} /*40pt*/
-#header1{ font-size : 2.1vw; font-family:'BerkshireSwash-Regular'} /*40pt*/
-#txt1{ font-size : 2vw} /*25pt*/
-#txt2{ font-size : 1.95vw} /*16pt*/
-#txt3{ font-size : 2.3vw} /*26pt*/
-#txt4{ font-size : 1.98vw} /*18pt*/	
+
+.lin1{
+ line-height:15%;	
+}
+
+.logo1 {
+ font-family:'Bellico';
+ color : #a8756f ;
+}
+
+.logo2 {
+ font-family:'BerkshireSwash-Regular';
+ color : #a73d4a; 
+}
+
+.btn1 {
+ font-family:'Montserrat';
+color: #ffffff ;
+}
+
+h1 {
+	font-family:'BerkshireSwash-Regular';	
+	color : #613c41; 	
+	text-align:center	;
+}
+h2 {
+	font-family:'BerkshireSwash-Regular';	
+	color : #613c41; 	
+	text-align:center	;
+}
+h3 {
+	font-family:'Lora';	
+	color : #9f9896; 	
+	text-align:center	;
+}
+h4 {
+	font-family:'Lora';	
+	color : #9f9896; 	
+	text-align:center	;
+}
+h5 {
+	font-family:'Lora';	
+	color : #613c41; 	
+	text-align:center	;
+}
+
+.BigNum{
+	font-family:'BerkshireSwash-Regular';	
+	color : #ec495e; 	
+	text-align:center	;	
+	line-height:85%;	
+	margin-top:auto;
+}
+
+.aps{
+	font-family:'BerkshireSwash-Regular';	
+	color : #a8756f; 	
+	text-align:center	;		
+}
+.cap1{
+	font-family:'BerkshireSwash-Regular';	
+	color : #a8756f; 	
+	text-align:center	;		
+}
+
+.txt1 {
+	font-family:'Lora-bold';	
+	color : #613c41; 	
+}
+.txt2 {
+	font-family:'Lora';	
+	color : #9f9896; 	
+}
+.txt3 {
+	font-family:'Lora';	
+	color : #a8756f; 	
+}
+.txt4 {
+	font-family:'Lora';	
+	color : #613c41; 	
+}
+.txt5 {
+	font-family:'Lora';	
+	color : #a8756f; 	
+}
+
+.txt61 {
+	font-family:'Lora';	
+	color : #616161; 	
+}
+
+.it1{
+	font-family:'Lora-italic';	
+	color : #613c41; 		
+}
+.it2{
+	font-family:'Lora-italic';	
+	color : #9f9896; 		
+}
+.cntr{
+	text-align:center;
+}
+
+
+
 @media (min-width:1300px){
-#big {font-size : 57pt} /*40pt*/
-#header1{ font-size :18pt; font-family:'BerkshireSwash-Regular'} /*40pt*/
-#big1{ font-size :35pt; font-family:'BerkshireSwash-Regular'} /*50pt*/
-#txt30{ font-size : 28pt; font-family:'BerkshireSwash-Regular'} /*30pt*/
-#txt1{ font-size : 17pt} /*25pt*/
-#txt3{ font-size : 18pt} /*26pt*/
-#txt2{ font-size : 11pt} /*16pt*/
-#txt4{ font-size : 14pt} /*18pt*/	
-#txt14{ font-size : 10pt} /*14pt*/	
+h1{font-size : 49pt}	
+h2{font-size : 28pt}
+h3{font-size : 17pt}
+h4{font-size : 14pt}
+h5{font-size : 17pt}
+.menu1  ul li a {font-size : 10pt} /*элементы меню*/	
+.btn1  {font-size : 10pt}
+.logo1 {font-size : 20pt}
+.logo2 {font-size : 36pt}
+.BigNum{font-size : 76pt}	
+.txt1 {font-size : 17pt}
+.txt2 {font-size : 11pt}
+.txt3 {font-size : 12pt}
+.txt4 {font-size : 18pt}
+.txt5 {font-size : 11pt}
+.txt61 {font-size : 11pt}
+.aps{font-size : 55pt}
+.it1{font-size : 14pt}
+.it2{font-size : 11pt}
+.cap1{font-size : 19pt}
 }
 @media (min-width:1900px){
-#big {font-size : 80pt} /*40pt*/
-#big1{ font-size :50pt; font-family:'BerkshireSwash-Regular'} /*50pt*/
-#header1{ font-size :40pt; font-family:'BerkshireSwash-Regular'} /*40pt*/
-#txt30{ font-size : 30pt; font-family:'BerkshireSwash-Regular'} /*30pt*/
-#txt1{ font-size : 25pt} /*25pt*/
-#txt2{ font-size : 16pt} /*16pt*/
-#txt3{ font-size : 26pt} /*26pt*/
-#txt4{ font-size : 18pt} /*18pt*/	
-#txt14{ font-size : 14pt} /*14pt*/	
+h1{font-size : 70pt}
+h2{font-size : 40pt}
+h3{ font-size : 25pt} /*25pt*/
+h4{font-size : 18pt}
+h5{font-size : 24pt}
+.menu1  ul li a {font-size : 13.81pt} /*элементы меню*/	
+.logo1 {font-size : 29pt}
+.logo2 {font-size : 51pt}
+.btn1  {font-size : 13.81pt}
+.BigNum{font-size : 108pt}
+.txt1 {font-size : 25pt}
+.txt2 {font-size : 16pt}
+.txt3 {font-size : 18pt}
+.txt4 {font-size : 26pt}
+.txt5 {font-size : 16pt}
+.txt61 {font-size : 16pt}
+.aps{font-size : 79pt}
+.it1{font-size : 20pt}
+.it2{font-size : 16pt}
+.cap1{font-size : 28pt}
 }
 
 /*#menu1 {} background:black;
@@ -86,15 +213,6 @@
 #menu1  ul li a:hover { text-decoration:underline; } 
 #menu1  { text-align:center; text-transform:uppercase;  text-decoration:none; color:#a8756f; font-family:Montserrat-Regular; font-size:1vw; }
 #menu1  a:hover { text-decoration:underline; }*/
-
-
-#menu1 { } /*background:black;*/
-#menu1  ul { list-style:none; }
-#menu1  ul li {  float: left; margin-left:5%; text-transform:uppercase; display:inline;   }
-#menu1  ul li a {  text-decoration:none; color:#a8756f; font-family:Montserrat-Regular; font-size:1.1vw}
-#menu1  ul li a:hover { text-decoration:underline; } 
-
-
 
 div.radius {
   border-radius: 30px;
